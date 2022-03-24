@@ -33,16 +33,19 @@
 # /eAST/component/beampipe/rotate y -90. deg
 
 # /eAST/component/GenericGDML1 1
-# /eAST/component/GenericGDML1/gdmlFile EicData/ATHENA/inner_detector.gdml
+# /eAST/component/GenericGDML1/gdmlFile EicData/ATHENA/athena_all.gdml
+
+# /eAST/component/GenericGDML1 1
+# /eAST/component/GenericGDML1/gdmlFile EicData/ATHENA/athena_SolenoidCoilBarrel_assembly_13.gdml
 
 /eAST/component/GenericGDML2 1
-/eAST/component/GenericGDML2/gdmlFile EicData/ATHENA/calorimeters.gdml
+/eAST/component/GenericGDML2/gdmlFile   EicData/ATHENA/athena_EcalBarrelImaging_26.gdml
 
 # /eAST/component/GenericGDML3 1
-# /eAST/component/GenericGDML3/gdmlFile EicData/ATHENA/tracking_only.gdml
+# /eAST/component/GenericGDML3/gdmlFile EicData/ATHENA/athena_EcalBarrelScFi_27.gdml
 
 # /eAST/component/GenericGDML4 1
-# /eAST/component/GenericGDML4/gdmlFile EicData/ATHENA/vertex_only.gdml
+# /eAST/component/GenericGDML4/gdmlFile EicData/ATHENA/athena_HcalBarrel_28.gdml
 
 #######################################################
 # Physics of the simulation
